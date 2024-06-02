@@ -1,0 +1,157 @@
+/*google font*/
+
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #490000;
+    min-height: 5rem;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 4rem;
+    margin-left: .625rem;
+    animation: rotar 5s linear infinite;
+}
+@keyframes rotar {
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+
+/* Titulo */
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 1.25rem;
+    color: #ca9a28;
+    font-size: 4.375rem;
+    font-family: "Tangerine", cursive;
+    font-weight: bold;
+}
+
+/* Subtitulo y parrafo*/
+
+h2 {
+    color: #8B4513;
+    text-align: left;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
+    font-style: oblique;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+p {
+    color: #3b1903;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.parrafo-descripcion {
+    color: #3b1903;
+    text-align: left;
+    font-size: 1.25rem;
+    font-style: initial;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-style: oblique;
+}
+
+.parrafo-descripcion2 {
+    font-weight: bolder;
+    color: #783407;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: initial;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-style: oblique;
+}
+
+.Descripcion {
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 35px;
+    font-size: 1.5625rem;
+    color: #3b1903;
+}
+
+/* Contenedor*/
+
+.contenedor-bombones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(72, 30, 20);
+    color: #FFF;
+
+    /* Color del texto en el footer */
+    padding: 20px;
+    height: auto;
+}
+
+.Copyright p {
+    text-transform: initial;
+    text-align: center;
+    font-size: 1rem;
+    font-style: oblique;
+    color: white;
+}
+
+.redes-sociales {
+    padding-top: 1.25rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+
+    img {
+        width: 2.5rem;
+        height: 2rem;
+        padding: 0 4px;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.logo-pequeño img {
+    height: 4rem;
+}

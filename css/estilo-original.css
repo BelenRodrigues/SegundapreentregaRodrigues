@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*google font*/
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*MAIN*/
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #490000;
+    min-height: 5rem;
+}
+
+.encabezado-inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #F5F5DC;
+    min-height: 5rem;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 4rem;
+    margin-left: .625rem;
+}
+
+/* Barra de navegación */
+
+nav {
+    text-align: center;
+}
+
+nav ul li {
+
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8B4513;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    margin:0 10px;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    border-color: white;
+    color: white;
+}
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+/*Inicio*/
+
+.section-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b1903;
+    background-image: url(../Assets/portada\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    margin-top: .625rem;
+}
+
+.section-principal h1 {
+    color: #fdfcf9;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 5px solid #fdfcf9 ;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 6.25rem;
+    font-family: "Tangerine", cursive;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+h2 {
+    color: #8B4513;
+    text-align: left;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
+    font-style: oblique;
+}
+
+p {
+    color: #3b1903;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.Parrafo-conocenuestrahistoria {
+    color: #3b1903;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    font-style: oblique;
+}
+
+/*Carousel*/
+
+#carouselExampleIndicators{
+    margin-bottom: 1.25rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 34.375rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #490000;
+}
+
+/*Mundo del Chocolate*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.descripcion-chocolate {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+}
+
+.imagen {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+}
+
+/*Productos*/
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 1.25rem;
+    color: #ca9a28;
+    font-size: 4.375rem;
+    font-family: "Tangerine", cursive;
+    font-weight: bold;
+}
+
+.parrafo-descripcion {
+    color: #3b1903;
+    text-align: left;
+    font-size: 1.25rem;
+    font-style: initial;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-style: oblique;
+}
+
+.parrafo-descripcion2{
+font-weight: bolder;
+color: #783407;
+text-align: center;
+font-size: 1.25rem;
+font-style: initial;
+margin-top: 30px;
+margin-bottom: 35px;
+font-style: oblique;
+}
+
+.Descripcion {
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 35px;
+    font-size: 1.5625rem;
+    color: #3b1903;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.tarjeta img {
+    width: 100%
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 98%;
+    align-content: center;
+    height: auto;
+}
+
+.tarjeta:hover{
+    background-color:#f8f8f8;
+    border: 2px solid #4e0202;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Imagen-productos {
+    width: 100%;
+    border-radius: 10%;
+    height: auto;
+}
+
+.boton {
+    background-color: rgb(198, 91, 4);
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    width: 100px;
+    height: 1.875rem;
+}
+
+.tarjeta .contenido {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.descubremas{
+    background-color: #cc5b0a;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.descubremas:active{
+background-color: #490000;
+}
+
+/*Bombones surtidos*/
+
+.contenedor-bombones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.Imagen-productos-s {
+    width: 100%;
+    border-radius: 10%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.tarjeta-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 98%;
+    align-content: center;
+    height: auto;
+}
+
+.tarjeta-s img {
+    width: 80%
+}
+
+/*Huevos de pascua*/
+
+.tarjeta-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 98%;
+    align-content: center;
+    height: auto;
+}
+
+.tarjeta-h img {
+    width: 70%
+}
+
+.Imagen-productos-h {
+    height: 25rem;
+    width: 100%;
+    border-radius: 10%;
+    padding-bottom: 20px;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(72, 30, 20);
+    color: #FFF;
+    /* Color del texto en el footer */
+    padding: 20px;
+    height: auto;
+}
+
+.Copyright p {
+    text-transform: initial;
+    text-align: center;
+    font-size: 1rem;
+    font-style: oblique;
+    color: white;
+}
+
+.redes-sociales {
+    padding-top: 1.25rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.redes-sociales img {
+    width: 2.5rem;
+    height: 2rem;
+    padding: 0 4px;
+}
+
+.redes-sociales p {
+    color: white;
+}
+
+.logo-pequeño img {
+    height: 4rem;
+}
+
+/* RESPONSIVE */
+
+/* Media query tablet */
+@media screen and (max-width: 768px){
+
+/*Barra de nav*/
+
+nav ul li a {
+    font-size: 1rem;
+}    
+
+/*Inicio*/
+.carousel-item img {
+    width: 100%;
+    height: 12.5rem;
+}
+
+/*Mundo del Chocolate*/
+
+.foto {
+    width: 30%;
+}
+
+.descripcion-chocolate {
+    width: 70%;
+}
+.imagen {
+    width: 9.375rem;
+    height: 9.375rem;
+    position: relative;
+    top: 6.25rem;
+}
+
+/*Productos*/
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Imagen-productos {
+    height: auto;
+}
+
+/*Bombones*/
+
+.contenedor-bombones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Imagen-productos-h {
+    height: 18.75rem;
+}
+}
+
+/* RESPONSIVE */
+
+/* Media query para mobile */
+@media screen and (max-width: 667px){
+
+/*Barra de nav*/
+
+nav ul li a {
+    font-size: 0.75rem;
+}    
+
+/*Inicio*/
+
+.section-principal {
+    height: 15.625rem;
+}
+
+.section-principal h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+.Parrafo-conocenuestrahistoria {
+    font-size: 1rem;
+}
+
+/*Carousel*/
+
+.carousel-item img {
+    height: 15rem;
+}
+
+/*Mundo del Chocolate*/
+
+.titulo-principal{
+font-size: 3.75rem;
+}
+
+.foto {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.descripcion-chocolate {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+    font-size: 0.75rem;
+}
+
+.imagen {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    position: relative;
+    top: 10rem;
+    right: 1.3rem;
+}
+
+/*Productos*/
+
+h1 {
+    font-size: 3.125rem;
+}
+
+.parrafo-descripcion {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.parrafo-descripcion2{    
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.Descripcion {
+    margin-bottom: 35px;
+    font-size: 1rem;
+}
+
+.contenedor-productos {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.descubremas{
+    font-size: 0.75rem;
+}
+
+
+/*Bombones*/
+
+.contenedor-bombones {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*tarjeta*/
+
+.tarjeta-h img {
+    width: 80%
+}
+
+.Imagen-productos-h {
+    height: 20rem;
+}
+
+/*Footer*/
+
+footer {
+    padding: 10px;
+    }
+
+.Copyright p {
+    font-size: 0.6rem;
+}
+
+.redes-sociales {
+    padding-top: 1.25rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.redes-sociales img {
+    width: 1.5rem;
+    height: 1rem;
+    padding: 3 3px;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+.redes-sociales p {
+    color: white;
+}
+
+.logo-pequeño img {
+    height: 2.5rem;
+    position: relative;
+    bottom:0.3rem;
+}
+}

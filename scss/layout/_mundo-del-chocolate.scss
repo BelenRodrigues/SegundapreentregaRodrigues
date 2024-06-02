@@ -1,0 +1,25 @@
+/*Mundo del Chocolate*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.descripcion-chocolate {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align:center;
+}
+
+.imagen {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+}

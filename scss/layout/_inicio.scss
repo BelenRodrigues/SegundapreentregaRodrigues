@@ -1,0 +1,44 @@
+/*Inicio*/
+
+.section-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b1903;
+  background-image: url(../Assets/portada\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  margin-top: .625rem;
+
+  h1 {
+    color: #fdfcf9;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 5px solid #fdfcf9;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 6.25rem;
+    font-family: "Tangerine", cursive;
+    font-style: oblique;
+    font-weight: bold;
+  }
+}
+
+.encabezado-inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #F5F5DC;
+  min-height: 5rem;
+}
+
+.Parrafo-conocenuestrahistoria {
+  color: #3b1903;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  font-style: oblique;
+}

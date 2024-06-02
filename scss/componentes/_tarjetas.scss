@@ -1,0 +1,117 @@
+/* Tarjeta */
+
+.tarjeta {
+    img {
+        width: 100%;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 98%;
+    align-content: center;
+    height: auto;
+    margin-bottom: 1.25rem;
+
+    &:hover {
+        background-color: #f8f8f8;
+        border: 2px solid #4e0202;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.Imagen-productos {
+    width: 100%;
+    border-radius: 10%;
+    height: auto;
+}
+
+.boton {
+    background-color: rgb(198, 91, 4);
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    width: 100px;
+    height: 1.875rem;
+}
+
+.tarjeta .contenido {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.descubremas {
+    background-color: #cc5b0a;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    &:active {
+        background-color: #490000;
+    }
+}
+
+/* Tarjeta-s*/
+
+.Imagen-productos-s {
+    width: 100%;
+    border-radius: 10%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.tarjeta-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 98%;
+    align-content: center;
+    height: auto;
+    margin-bottom: 1.25rem;
+
+    img {
+        width: 90%;
+    }
+}
+
+/* Tarjeta-h*/
+
+.tarjeta-h {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 98%;
+    align-content: center;
+    height: auto;
+    margin-bottom: 1.25rem;
+
+    img {
+        width: 70%;
+    }
+}
+
+.Imagen-productos-h {
+    height: 21.875rem;
+    width: 100%;
+    border-radius: 10%;
+    padding-bottom: 20px;
+}
