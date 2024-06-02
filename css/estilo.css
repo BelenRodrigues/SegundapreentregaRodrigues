@@ -229,6 +229,159 @@ footer {
   margin-right: 1.25rem;
 }
 
+/* Media query para mobile */
+@media screen and (max-width: 667px) {
+  /*Barra de nav*/
+  nav ul li a {
+    font-size: 0.75rem;
+  }
+  /*Inicio*/
+  .section-principal {
+    height: 15.625rem;
+  }
+  .section-principal h1 {
+    font-size: 3.75rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .Parrafo-conocenuestrahistoria {
+    font-size: 1rem;
+  }
+  /*Carousel*/
+  .carousel-item img {
+    height: 15rem;
+  }
+  /*Mundo del Chocolate*/
+  .titulo-principal {
+    font-size: 3.75rem;
+  }
+  .foto {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+  }
+  .descripcion-chocolate {
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+    font-size: 0.75rem;
+  }
+  .imagen {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    position: relative;
+    top: 10rem;
+    right: 1.3rem;
+  }
+  /*Productos*/
+  h1 {
+    font-size: 3.125rem;
+  }
+  .parrafo-descripcion,
+  .parrafo-descripcion2 {
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .Descripcion {
+    margin-bottom: 35px;
+    font-size: 1rem;
+  }
+  .contenedor-productos {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .descubremas {
+    font-size: 0.75rem;
+  }
+  /*Bombones*/
+  .contenedor-bombones {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  /*tarjeta*/
+  .tarjeta-h img {
+    width: 80%;
+  }
+  .Imagen-productos-h {
+    height: 20rem;
+  }
+  /*Footer*/
+  footer {
+    padding: 10px;
+  }
+  .Copyright p {
+    font-size: 0.6rem;
+  }
+  .redes-sociales {
+    padding-top: 1.25rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .redes-sociales img {
+    width: 1.5rem;
+    height: 1rem;
+    padding: 3 3px;
+    position: relative;
+    bottom: 0.3rem;
+  }
+  .redes-sociales p {
+    color: white;
+  }
+  .logo-pequeño img {
+    height: 2.5rem;
+    position: relative;
+    bottom: 0.3rem;
+  }
+}
+/* Media query tablet */
+@media screen and (max-width: 768px) {
+  /*Barra de nav*/
+  nav ul li a {
+    font-size: 1rem;
+  }
+  /*Inicio*/
+  .carousel-item img {
+    width: 100%;
+    height: 15.625rem;
+  }
+  /*Mundo del Chocolate*/
+  .foto {
+    width: 30%;
+  }
+  .descripcion-chocolate {
+    width: 70%;
+  }
+  .imagen {
+    width: 9.375rem;
+    height: 9.375rem;
+    position: relative;
+    top: 6.25rem;
+  }
+  /*Productos*/
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Imagen-productos {
+    height: auto;
+  }
+  /*Bombones*/
+  .contenedor-bombones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Imagen-productos-h {
+    height: 18.75rem;
+  }
+}
 /*Carousel*/
 #carouselExampleIndicators {
   margin-bottom: 1.25rem;
@@ -387,160 +540,6 @@ nav ul li a:hover {
   width: 100%;
   border-radius: 10%;
   padding-bottom: 20px;
-}
-
-/* Media query para mobile */
-@media screen and (max-width: 667px) {
-  /*Barra de nav*/
-  nav ul li a {
-    font-size: 0.75rem;
-  }
-  /*Inicio*/
-  .section-principal {
-    height: 15.625rem;
-  }
-  .section-principal h1 {
-    font-size: 3.75rem;
-  }
-  h2 {
-    font-size: 1.25rem;
-  }
-  .Parrafo-conocenuestrahistoria {
-    font-size: 1rem;
-  }
-  /*Carousel*/
-  .carousel-item img {
-    height: 15rem;
-  }
-  /*Mundo del Chocolate*/
-  .titulo-principal {
-    font-size: 3.75rem;
-  }
-  .foto {
-    width: 30%;
-    box-sizing: border-box;
-    padding: 20px;
-    margin: 20px;
-  }
-  .descripcion-chocolate {
-    width: 70%;
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: justify;
-    font-size: 0.75rem;
-  }
-  .imagen {
-    width: 6.5rem;
-    height: 6.5rem;
-    border-radius: 50%;
-    position: relative;
-    top: 10rem;
-    right: 1.3rem;
-  }
-  /*Productos*/
-  h1 {
-    font-size: 3.125rem;
-  }
-  .parrafo-descripcion,
-  .parrafo-descripcion2 {
-    font-size: 1rem;
-    margin-top: 20px;
-    margin-bottom: 25px;
-  }
-  .Descripcion {
-    margin-bottom: 35px;
-    font-size: 1rem;
-  }
-  .contenedor-productos {
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .descubremas {
-    font-size: 0.75rem;
-  }
-  /*Bombones*/
-  .contenedor-bombones {
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  /*tarjeta*/
-  .tarjeta-h img {
-    width: 80%;
-  }
-  .Imagen-productos-h {
-    height: 20rem;
-  }
-  /*Footer*/
-  footer {
-    padding: 10px;
-  }
-  .Copyright p {
-    font-size: 0.6rem;
-  }
-  .redes-sociales {
-    padding-top: 1.25rem;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-  }
-  .redes-sociales img {
-    width: 1.5rem;
-    height: 1rem;
-    padding: 3 3px;
-    position: relative;
-    bottom: 0.3rem;
-  }
-  .redes-sociales p {
-    color: white;
-  }
-  .logo-pequeño img {
-    height: 2.5rem;
-    position: relative;
-    bottom: 0.3rem;
-  }
-}
-/* Media query tablet */
-@media screen and (max-width: 768px) {
-  /*Barra de nav*/
-  nav ul li a {
-    font-size: 1rem;
-  }
-  /*Inicio*/
-  .carousel-item img {
-    width: 100%;
-    height: 15.625rem;
-  }
-  /*Mundo del Chocolate*/
-  .foto {
-    width: 30%;
-  }
-  .descripcion-chocolate {
-    width: 70%;
-  }
-  .imagen {
-    width: 9.375rem;
-    height: 9.375rem;
-    position: relative;
-    top: 6.25rem;
-  }
-  /*Productos*/
-  .contenedor-productos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .Imagen-productos {
-    height: auto;
-  }
-  /*Bombones*/
-  .contenedor-bombones {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .Imagen-productos-h {
-    height: 18.75rem;
-  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

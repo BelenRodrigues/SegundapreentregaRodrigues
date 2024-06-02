@@ -11,8 +11,8 @@
 @import "./layout/aniversario";
 @import "./layout/souvenir";
 @import "./layout/huevos-de-pascua";
-@import "./componentes/carousel";
-@import "./componentes/menu-hamburguesa";
-@import "./componentes/tarjetas";
-@import "./media-queries/mobile";
-@import"./media-queries/tablet";
+@import"./layout/responsive/mediamobile";
+@import"./layout/responsive/mediatablet";
+@import "./components/carousel";
+@import "./components/menu-hamburguesa";
+@import "./components/tarjetas";
